@@ -1,10 +1,11 @@
-import React from 'react'
-import Home from './modules/landing/pages/Home';
+import HomePage from './modules/landing/pages/HomePage';
+import { AppRoutes } from './shared/routes/AppRoutes';
 
 const App = () => {
   return (
     <div>
-      <Home></Home>
+
+      <AppRoutes></AppRoutes>
     </div>
   )
 }

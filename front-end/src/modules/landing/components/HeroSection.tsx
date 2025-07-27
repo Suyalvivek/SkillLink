@@ -1,10 +1,9 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Play, CheckCircle, Users, BarChart3 } from "lucide-react";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 lg:py-32">
       {/* Background Elements */}
@@ -214,4 +213,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
